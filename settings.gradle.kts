@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ZenceyNew"
+rootProject.name = "JetStream"
 include(":app")
  

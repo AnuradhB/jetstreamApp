@@ -5,7 +5,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name=".MyApp"
+        android:name=".utils.MyApp"
         android:allowBackup="true"
         android:enableOnBackInvokedCallback="true"
 
@@ -15,7 +15,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ZenceyNew">
+        android:theme="@style/Theme.jetstream">
 
         <!-- <activity -->
         <!-- android:name=".MainActivity2" -->
@@ -24,7 +24,7 @@
             android:name=".MainActivity2"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.ZenceyNew">
+            android:theme="@style/Theme.jetstream">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
