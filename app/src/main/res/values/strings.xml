@@ -1,0 +1,365 @@
+<resources>
+    <string name="app_name">ZenceyNew</string>
+    <string name="sign_up">Sign up</string>
+    <string name="Password">password</string>
+    <string name="Phone_Number">Phone Number</string>
+    <string name="country">Country</string>
+    <string name="already_have_an_account_login_below">Already have an account login below</string>
+    <string name="welcome">Welcome</string>
+    <string name="ForgetPassword">Forgot Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="don_t_have_an_account">don\'t have an account</string>
+    <string name="signUpNow1">signUp Now</string>
+    <string name="continue_without_login">continue without login</string>
+    <string name="or_continue_with">or continue with</string>
+    <string name="Login">Login</string>
+    <string name="select_experience">Select Expirence</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="get_ai_powered_stock_analysis_and_real_time_market_trends_to_make_smarter_investment_decisions_quickly_and_confidently">Get AI-powered stock analysis and real-time market trends to make smarter investment decisions quickly and confidently.</string>
+    <string name="smart_stock_ninsights">Smart Stock \nInsights</string>
+    <string name="seamless_trading_experience">Seamless Trading \nExperience</string>
+    <string name="buy_and_sell_stocks_effortlessly_with_a_clean_intuitive_interface_designed_for_both_beginners_and_experienced_traders">Buy and sell stocks effortlessly with a clean,\nintuitive interface designed for both beginners and experienced traders.</string>
+    <string name="comprehensive_trading_tools">Comprehensive \nTrading Tools</string>
+    <string name="access_powerful_tools_like_portfolio_tracking_advanced_charts_and_custom_alerts_all_in_one_place_to_stay_on_top_of_your_trades">Access powerful tools like portfolio tracking,\nadvanced charts, and custom alerts—all in one place to stay on top of your trades.</string>
+    <string name="enter_your_email_password_to_login"><![CDATA[Enter your email & password to login]]></string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="password">Password</string>
+
+
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="last_name">Last Name</string>
+    <string name="enter_your_last_name">Enter last name</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="enter_your_referral_code">Enter your referral code</string>
+    <string name="referral_code">Referral Code</string>
+    <string name="already_have_an_account">Already have an account ?</string>
+    <string name="let_s_verify_kyc">Let’s Verify KYC</string>
+    <string name="please_submit_your_details_nto_verify_your_profile">Please submit your details \nto verify your profile</string>
+    <string name="kyc_progress_instructions"><![CDATA[KYC Progress & Instructions]]></string>
+    <string name="prepare_your_details_financial_info_and_id_for_quick_verification">Prepare your details, financial info, and ID for quick verification.</string>
+    <string name="verification_steps_overview">Verification Steps Overview</string>
+    <string name="complete_kyc_to_secure_your_account_and_enable_trading">Complete KYC to secure your account and enable trading.</string>
+    <string name="have_your_documents_ready_the_process_takes_just_a_few_minutes">Have your documents ready. The process takes just a few minutes.</string>
+    <string name="start_your_verification">Start Your Verification</string>
+    <string name="get_started">Get Started</string>
+    <string name="redirect_to_home">Redirect To Home</string>
+    <string name="please_submit_your_personal_information">Please submit your personal information</string>
+    <string name="continue1">Continue</string>
+    <string name="ssn_itn_number">SSN/ITN Number</string>
+    <string name="enter_your_ssn_itn_number">Enter your SSN/ITN Number</string>
+    <string name="enter_your_address">Enter your Address</string>
+    <string name="address">Address</string>
+    <string name="nationality">Nationality</string>
+    <string name="enter_your_nationality">Enter your Nationality</string>
+    <string name="upload_back">Upload Back</string>
+    <string name="supported_files_png_jpg_mp4_nmov_less_than_5_mb">Supported files PNG, JPG \nless than 5 MB</string>
+    <string name="review_your_submitted_data_and_information">Review your submitted data and information</string>
+    <string name="review">Review</string>
+    <string name="submit">Submit</string>
+    <string name="documents">Documents</string>
+    <string name="uploaded_document">Uploaded Document</string>
+    <string name="driving_license">Driving License</string>
+    <string name="view_profile">View Profile</string>
+    <string name="account">Account</string>
+    <string name="learning_resources"><![CDATA[Learning & Resources]]></string>
+    <string name="help_center">Help Center</string>
+    <string name="terms_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="save_changes">Save Changes</string>
+
+    <string name="password_must_be_at_least_8_characters">Password must be at least 8 characters.</string>
+    <string name="please_enter_name">Please enter name</string>
+    <string name="please_valid_name">Please enter valid name</string>
+    <string name="please_valid_email_Address">Please enter valid email address</string>
+    <string name="password_must_be_at_least_six_characters">Password must be at least 8 characters.</string>
+    <string name="please_new_enter_password">Please enter new password</string>
+    <string name="please_enter_confirm__password">Please enter confirm password</string>
+    <string name="please_enter_password">Please enter password</string>
+    <string name="please_enter_email">Please enter email</string>
+    <string name="no_internet">No network connectivity available.</string>
+
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="choose">Choose</string>
+    <string name="gallery">Gallery</string>
+    <string name="cancel">Cancel</string>
+    <string name="cemara">Cemara</string>
+    <string name="home">Home</string>
+    <string name="explore">Explore</string>
+    <string name="total_investment">Total Investment</string>
+    <string name="total_portfolio">Total Portfolio</string>
+    <string name="explore_stocks">Explore Stocks</string>
+    <string name="ai_recommendation">AI Recommendation</string>
+    <string name="my_holdings">My Holdings</string>
+    <string name="view_analysis">View Analysis</string>
+    <string name="deposit">Deposit</string>
+    <string name="portfolio">Portfolio</string>
+    <string name="total_return">Total return</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="asset_diversification">Asset Diversification</string>
+    <string name="transactions">Transactions</string>
+    <string name="logout">Logout</string>
+    <string name="are_you_sure_you_want_to_logout">Are you sure you want to logout ?</string>
+    <string name="to">To</string>
+    <string name="from_date">From Date</string>
+    <string name="beating_s_p_500_by_2"><![CDATA[Beating S&P 500 by 2%]]></string>
+    <string name="select_from_date">Select From Date</string>
+    <string name="select_to_date">Select To Date</string>
+    <string name="expected_buys">Expected Buys</string>
+    <string name="hold_suggestions">Hold Suggestions</string>
+    <string name="watchlist">Watchlist</string>
+    <string name="lorem_ipsum_is_simply_dummy_text_of_the_printing_and_typesetting_industry_lorem_ipsum_has_been_the_industry_s_standard_dummy_text_ever_since_the_1500s_when_an_unknown_printer_took_a_galley_of_type_and_scrambled_it_to_make_a_type_specimen_book">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+    <string name="learn_how_to_invest">Learn How To Invest</string>
+    <string name="delete">Delete</string>
+    <string name="profile">Profile</string>
+    <string name="avg_trade_price">Avg. Trade Price</string>
+    <string name="change_password">Change Password</string>
+    <string name="settings">Settings</string>
+    <string name="please_enter_a_watchlist_name">Please enter a watchlist name</string>
+    <string name="edit_watchlist">Edit Watchlist</string>
+    <string name="please_select_watchlist_name">Please select watchlist name</string>
+    <string name="enter_your_current_password">Enter your current password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="please_enter_first_name">Please enter first name.</string>
+    <string name="please_enter_last_name">Please enter last name.</string>
+    <string name="first_name_must_be_between_3_and_20_characters">First name must be between 3 and 20 characters.</string>
+    <string name="last_name_must_be_between_3_and_20_characters">Last name must be between 3 and 20 characters.</string>
+    <string name="please_enter_your_email_address">Please enter your email address.</string>
+    <string name="please_enter_a_valid_email_address">Please enter a valid email address.</string>
+    <string name="please_select_the_country_code">Please select the country code.</string>
+    <string name="enter_phone_number">Enter phone number.</string>
+    <string name="phone_number_must_be_at_least_10_characters_long">Phone Number must be at least 10 characters long.</string>
+    <string name="please_enter_a_password">Please enter a password.</string>
+    <string name="password_must_be_at_least_8_characters_long">Password must be at least 8 characters long.</string>
+    <string name="password_must_include_uppercase_lowercase_number_special_character"><![CDATA[Password must include uppercase, lowercase, number & special character.]]></string>
+    <string name="please_select_your_date_of_birth">Please select your date of birth.</string>
+    <string name="please_accept_the_terms_and_conditions">Please accept the terms and conditions.</string>
+    <string name="enter_your_new_password">Enter your new password</string>
+    <string name="please_select_your_trading_experience">Please select your trading experience.</string>
+    <string name="edit">Edit</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="select_your_date_of_birth">Select your date of birth</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="enter_first_name">Enter first name</string>
+
+
+    <string name="kyc_information">KYC Information</string>
+    <string name="two_factor_authentication">Two-Factor Authentication</string>
+    <string name="edit_kyc_info">Edit KYC Info</string>
+    <string name="enter_your_confirm_new_password">Enter your confirm new password</string>
+    <string name="buy">Buy</string>
+    <string name="sell">Sell</string>
+    <string name="file_provider_authority">com.example.snap2trade.fileprovider</string>
+    <string name="review_order">Review Order</string>
+    <string name="p_l"><![CDATA[P&L]]></string>
+    <string name="day_s_p_l"><![CDATA[Day’s P&L]]></string>
+    <string name="by_confirming_you_are_agree_nto_buy_the_stocks">By Confirming you are agree\nto buy the stocks</string>
+    <string name="by_confirming_you_are_agree_nto_sell_the_stocks">By Confirming you are agree\nto sell the stocks</string>
+    <string name="my_orders">My Orders</string>
+    <string name="order_details">Order Details</string>
+    <string name="pending">Pending</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="completed">Completed</string>
+    <string name="reinitiate">Reinitiate</string>
+    <string name="download_receipt">Download Receipt</string>
+    <string name="course_details">Course Details</string>
+    <string name="notifications">Notifications</string>
+    <string name="deleting_your_account_will_permanently_remove_your_profile_data_and_all_associated_information_this_action_cannot_be_undone_if_you_re_experiencing_issues_or_need_help_consider_reaching_out_to_our_support_team_before_proceeding">Deleting your account will permanently remove your profile, data, and all associated information. This action cannot be undone. If you’re experiencing issues or need help, consider reaching out to our support team before proceeding.</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="subscribe_now_enjoy_snap2trade"><![CDATA[Subscribe Now & Enjoy Snap2Trade]]></string>
+    <string name="you_ve_unlocked_advanced_insights_ai_powered_nalerts_and_premium_trading_tools_to_take_your_portfolio_to_the_next_level_let_s_start_making_nsmarter_trades_today">You’ve unlocked advanced insights, AI-powered\nalerts, and premium trading tools to take your portfolio to the next level. Let’s start making\nsmarter trades today!”</string>
+    <string name="thank_you_for_subscribing_to_snap2trade_pro">Thank you for subscribing \nto Snap2Trade Pro!</string>
+    <string name="subscription">Subscription</string>
+    <string name="default1">Default</string>
+    <string name="add_new_bank_account">Add New Bank Account</string>
+    <string name="bank_accounts">Bank Accounts</string>
+    <string name="search_bank">Search Bank</string>
+    <string name="update_bank_account">Update Bank Account</string>
+    <string name="update">Update</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="subscription_details">Subscription Details</string>
+    <string name="canceling_your_subscription_will_stop_future_renewals_and_remove_access_to_premium_features_at_the_end_of_your_current_billing_cycle_you_can_re_subscribe_anytime_to_regain_full_access">Canceling your subscription will stop future renewals and remove access to premium features at the end of your current billing cycle. You can re-subscribe anytime to regain full access.</string>
+    <string name="close">Close</string>
+    <string name="cancel_subscription">Cancel Subscription</string>
+    <string name="billing_history">Billing History</string>
+    <string name="add_new_card">Add New Card</string>
+
+    <string-array name="spinner_experience">
+        <!--        <item>Select Experience</item>-->
+        <item>Beginner</item>
+        <item>Intermediate</item>
+        <item>Advanced</item>
+    </string-array>
+    <string-array name="gender">
+        <!--        <item>Select Gender</item>-->
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="identity_documents">
+        <!--        <item>Select Document</item>-->
+
+        <item>PAN Card</item>
+        <item>Aadhaar Card</item>
+        <item>Driving License</item>
+        <item>Voter ID</item>
+    </string-array>
+
+    <string-array name="nationality_list">
+        <!--        <item>Select Nationality</item>-->
+        <item>Afghan</item>
+        <item>Albanian</item>
+        <item>Algerian</item>
+        <item>American</item>
+        <item>Andorran</item>
+        <item>Angolan</item>
+        <item>Argentinian</item>
+        <item>Armenian</item>
+        <item>Australian</item>
+        <item>Austrian</item>
+        <item>Azerbaijani</item>
+        <item>Bahamian</item>
+        <item>Bangladeshi</item>
+        <item>Barbadian</item>
+        <item>Belarusian</item>
+        <item>Belgian</item>
+        <item>Belizean</item>
+        <item>Beninese</item>
+        <item>Bhutanese</item>
+        <item>Bolivian</item>
+        <item>Bosnian</item>
+        <item>Brazilian</item>
+        <item>British</item>
+        <item>Bruneian</item>
+        <item>Bulgarian</item>
+        <item>Cambodian</item>
+        <item>Cameroonian</item>
+        <item>Canadian</item>
+        <item>Chilean</item>
+        <item>Chinese</item>
+        <item>Colombian</item>
+        <item>Costa Rican</item>
+        <item>Croatian</item>
+        <item>Cuban</item>
+        <item>Cypriot</item>
+        <item>Czech</item>
+        <item>Danish</item>
+        <item>Dominican</item>
+        <item>Dutch</item>
+        <item>Egyptian</item>
+        <item>Emirati</item>
+        <item>English</item>
+        <item>Estonian</item>
+        <item>Ethiopian</item>
+        <item>Finnish</item>
+        <item>French</item>
+        <item>Georgian</item>
+        <item>German</item>
+        <item>Ghanaian</item>
+        <item>Greek</item>
+        <item>Guatemalan</item>
+        <item>Haitian</item>
+        <item>Honduran</item>
+        <item>Hungarian</item>
+        <item>Icelandic</item>
+        <item>Indian</item>
+        <item>Indonesian</item>
+        <item>Iranian</item>
+        <item>Iraqi</item>
+        <item>Irish</item>
+        <item>Israeli</item>
+        <item>Italian</item>
+        <item>Jamaican</item>
+        <item>Japanese</item>
+        <item>Jordanian</item>
+        <item>Kazakh</item>
+        <item>Kenyan</item>
+        <item>Kuwaiti</item>
+        <item>Laotian</item>
+        <item>Latvian</item>
+        <item>Lebanese</item>
+        <item>Libyan</item>
+        <item>Lithuanian</item>
+        <item>Luxembourgish</item>
+        <item>Malaysian</item>
+        <item>Malian</item>
+        <item>Maltese</item>
+        <item>Mexican</item>
+        <item>Moldovan</item>
+        <item>Mongolian</item>
+        <item>Moroccan</item>
+        <item>Nepalese</item>
+        <item>New Zealander</item>
+        <item>Nigerian</item>
+        <item>Norwegian</item>
+        <item>Omani</item>
+        <item>Pakistani</item>
+        <item>Palestinian</item>
+        <item>Panamanian</item>
+        <item>Paraguayan</item>
+        <item>Peruvian</item>
+        <item>Filipino</item>
+        <item>Polish</item>
+        <item>Portuguese</item>
+        <item>Qatari</item>
+        <item>Romanian</item>
+        <item>Russian</item>
+        <item>Saudi Arabian</item>
+        <item>Scottish</item>
+        <item>Serbian</item>
+        <item>Singaporean</item>
+        <item>Slovak</item>
+        <item>Slovenian</item>
+        <item>Somali</item>
+        <item>South African</item>
+        <item>South Korean</item>
+        <item>Spanish</item>
+        <item>Sri Lankan</item>
+        <item>Sudanese</item>
+        <item>Swedish</item>
+        <item>Swiss</item>
+        <item>Syrian</item>
+        <item>Taiwanese</item>
+        <item>Tanzanian</item>
+        <item>Thai</item>
+        <item>Tunisian</item>
+        <item>Turkish</item>
+        <item>Ugandan</item>
+        <item>Ukrainian</item>
+        <item>Uruguayan</item>
+        <item>Uzbek</item>
+        <item>Venezuelan</item>
+        <item>Vietnamese</item>
+        <item>Yemeni</item>
+        <item>Zambian</item>
+        <item>Zimbabwean</item>
+    </string-array>
+
+
+    <array name="initial_range_slider_values">
+        <item>0.0</item>
+        <item>80.0</item>
+    </array>
+
+
+    <string-array name="type">
+        <item>Short-term</item>
+        <item>Long-term</item>
+    </string-array>
+
+
+    <string-array name="bank_menu">
+        <!--        <item>Select Gender</item>-->
+        <item>Mark As Default</item>
+        <item>Delete</item>
+        <item>Edit</item>
+    </string-array>
+
+</resources>

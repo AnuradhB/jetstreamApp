@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="4dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+android:src="@color/black"
+        android:id="@+id/img1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:text="djwa"
+        android:padding="10dp"
+        android:textSize="14sp"
+        android:id="@+id/tvName"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
