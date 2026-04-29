@@ -3,17 +3,40 @@ package com.jetstream.app.newLatest.screens
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Visibility
+import androidx.compose.material.icons.filled.VisibilityOff
 import androidx.compose.material3.Button
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
-import androidx.compose.runtime.*
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.text.font.*
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.Font
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.input.PasswordVisualTransformation
+import androidx.compose.ui.text.input.VisualTransformation
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -31,6 +54,10 @@ fun LoginScreen() {
     val fontF = FontFamily(
         Font(R.font.acid_grotesk_bold, FontWeight.Normal),
         Font(R.font.acid_grotesk_medium, FontWeight.Bold)
+    )
+    val fontFNormal = FontFamily(
+        Font(R.font.acid_grotesk_normal, FontWeight.Normal),
+        Font(R.font.acid_grotesk_light, FontWeight.Bold)
     )
 
     Column(
@@ -53,6 +80,14 @@ fun LoginScreen() {
             fontWeight = FontWeight.Bold,
             fontFamily = fontF
         )
+        Spacer(modifier = Modifier.height(5.dp))
+        Text(
+            text = "Enter your email & password to login",
+            fontSize = 14.sp,
+            fontWeight = FontWeight.Normal,
+            color = Color.Gray,
+            fontFamily = fontFNormal
+        )
 
         Spacer(modifier = Modifier.height(40.dp))
 
@@ -62,21 +97,29 @@ fun LoginScreen() {
             onValueChange = { email = it },
             label = "Email",
             placeholder = "Enter your email",
-            fontFamily = fontF
+            fontFamily = fontFNormal
         )
 
         Spacer(modifier = Modifier.height(20.dp))
 
-        // ✅ Password Field
-        CustomField(
+
+
+        CustomPassField(
             value = password,
             onValueChange = { password = it },
             label = "Password",
             placeholder = "Enter your password",
-            fontFamily = fontF
+            fontFamily = fontFNormal
         )
-
-        Spacer(modifier = Modifier.height(30.dp))
+        Text(
+            text = "Forgot Password?",
+            fontSize = 14.sp,
+            modifier = Modifier.fillMaxWidth(),
+            fontWeight = FontWeight.Medium,
+            color = Color.Black,
+            textAlign = TextAlign.End,
+            fontFamily = fontFNormal
+        )
 
         Button(
             onClick = {
@@ -97,6 +140,7 @@ fun CustomField(
     placeholder: String,
     fontFamily: FontFamily
 ) {
+
     Column(
         modifier = Modifier
             .fillMaxWidth()
@@ -110,7 +154,7 @@ fun CustomField(
             fontSize = 14.sp,
             color = Color.Gray,
             fontFamily = fontFamily,
-            fontWeight = FontWeight.Medium
+            fontWeight = FontWeight.Light
         )
 
         Spacer(modifier = Modifier.height(4.dp))
@@ -136,6 +180,129 @@ fun CustomField(
             }
         )
     }
+}
+
+
+@Composable
+fun CustomPassField(
+    value: String,
+    onValueChange: (String) -> Unit,
+    label: String,
+    placeholder: String,
+    fontFamily: FontFamily
+) {
+
+    Column(
+        modifier = Modifier
+            .fillMaxWidth()
+            .background(Color(0xFFF5F5F5), RoundedCornerShape(12.dp))
+            .border(1.dp, Color.LightGray, RoundedCornerShape(12.dp))
+            .padding(14.dp)
+    ) {
+
+        Text(
+            text = label,
+            fontSize = 14.sp,
+            color = Color.Gray,
+            fontFamily = fontFamily,
+            fontWeight = FontWeight.Light
+        )
+
+
+        var password by remember { mutableStateOf("") }
+        var passwordVisible by remember { mutableStateOf(false) }
+
+
+//        Box(
+//            modifier = Modifier
+//                .fillMaxWidth()
+//
+//        ) {
+
+        Row(
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+
+            // 👇 Text input
+            BasicTextField(
+                value = password,
+                onValueChange = { password = it },
+                modifier = Modifier.weight(1f),
+                singleLine = true,
+
+                textStyle = TextStyle(
+                    fontSize = 14.sp,
+                    fontFamily = fontFamily
+                ),
+                visualTransformation = if (passwordVisible)
+                    VisualTransformation.None
+                else
+                    PasswordVisualTransformation(),
+
+                decorationBox = { innerTextField ->
+                    if (password.isEmpty()) {
+                        Text(
+                            "Enter your password",
+                            color = Color.LightGray,
+                            fontWeight = FontWeight.Normal,
+                            fontFamily = fontFamily
+                        )
+                    }
+                    innerTextField()
+                }
+            )
+
+            // 👁 Eye Icon
+            IconButton(
+                onClick = { passwordVisible = !passwordVisible }, modifier = Modifier.size(30.dp)
+            ) {
+                Icon(
+                    imageVector = if (passwordVisible)
+                        Icons.Default.Visibility
+                    else
+                        Icons.Default.VisibilityOff,
+                    contentDescription = null, modifier = Modifier.size(24.dp)
+                )
+            }
+
+        }
+    }
+}
+
+@Composable
+fun PasswordField() {
+
+    var password by remember { mutableStateOf("") }
+    var passwordVisible by remember { mutableStateOf(false) }
+
+    OutlinedTextField(
+        value = password,
+        onValueChange = { password = it },
+        label = { Text("Password") },
+        modifier = Modifier.fillMaxWidth(),
+
+        // 👇 Show / Hide password
+        visualTransformation = if (passwordVisible)
+            VisualTransformation.None
+        else
+            PasswordVisualTransformation(),
+
+        trailingIcon = {
+            val icon = if (passwordVisible)
+                Icons.Default.Visibility
+            else
+                Icons.Default.VisibilityOff
+
+            IconButton(onClick = {
+                passwordVisible = !passwordVisible
+            }) {
+                Icon(
+                    imageVector = icon,
+                    contentDescription = "Toggle Password"
+                )
+            }
+        }
+    )
 }
 
 @Preview(showBackground = true)
